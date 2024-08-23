@@ -3,37 +3,50 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Felipe's Resume</title>
-    <!-- The link below connects your HTML to a CSS file where you'll style your page -->
-    <link rel="stylesheet" href="styles.css">
+    <title>Your Name - Resume</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
 <body>
-    <!-- This is the header section where your name and title will go -->
-    <header>
-        <h1>Felipe's Resume</h1>
-        <p>Network Engineer</p>
-    </header>
+    <div class="container">
+        <header class="text-center my-4">
+            <h1>Your Name</h1>
+            <p>Network Engineer | Your Key Skills</p>
+        </header>
 
-    <!-- This section is where you'll list your contact information -->
-    <section id="contact-info">
-        <h2>Contact Information</h2>
-        <p>Email: felipe@example.com</p>
-        <p>Phone: +1 234 567 890</p>
-        <p>LinkedIn: <a href="https://www.linkedin.com/in/felipe">linkedin.com/in/felipe</a></p>
-    </section>
+        <section>
+            <h2>Education</h2>
+            <ul>
+                <li>Bachelor of Computer Science - XYZ University</li>
+                <li>Certifications: NCA, JNCIA, etc.</li>
+            </ul>
+        </section>
 
-    <!-- This section is for your work experience -->
-    <section id="experience">
-        <h2>Experience</h2>
-        <h3>Network Engineer at Hiboo Networks</h3>
-        <p>January 2019 - Present</p>
-        <ul>
-            <li>Designed and implemented network solutions for B2B clients.</li>
-            <li>Maintained and upgraded network infrastructure.</li>
-            <li>Collaborated with teams to resolve network issues.</li>
-        </ul>
-    </section>
+        <section>
+            <h2>Experience</h2>
+            <ul>
+                <li>Network Engineer at Hiboo Networks (2020-Present)</li>
+                <li>Experience with Juniper SRX, Nutanix, Docker Swarm, etc.</li>
+            </ul>
+        </section>
 
-    <!-- Add more sections as needed for education, skills, etc. -->
+        <section>
+            <h2>Skills</h2>
+            <ul>
+                <li>Networking, Cybersecurity, Juniper, etc.</li>
+                <li>Languages: Python, Bash, etc.</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Contact</h2>
+            <p>Email: your.email@example.com</p>
+            <p>LinkedIn: <a href="https://linkedin.com/in/yourprofile">Your LinkedIn Profile</a></p>
+        </section>
+    </div>
+
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
 </body>
 </html>
